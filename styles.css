@@ -1,80 +1,80 @@
 * {
-    margin: 0;
-  }
-  
-  
-  body {
-    color: white;
-    text-align: center;
-    font-family: sans-serif;
-    background-image: url(https://1.bp.blogspot.com/-ON3z1em6qsU/XPW8zr6WvuI/AAAAAAAARYg/igp71s7ebbQHg68ew9drbk55MsziDRnnwCLcBGAs/s1600/jb_magic8ball1-w855h425%25402x.jpg);
-    background-position: center;
-  }
-  
-  #container {
-    margin-top: 30px;
-    padding: 20px;
-    width: 80%;
-    max-width: 400px;
-    margin-inline: auto;
-    border: 3px solid rgb(22, 104, 159);
-    box-shadow: 8px 0px 8px 5px black;
-    margin-bottom: 30px;
-    backdrop-filter: blur(8px);
-  }
-  
-  h1 {
-    margin-top: 40px;
-    margin-bottom: 10px;
-    opacity: 0.9;
-  }
-  
-  p {
-    margin-bottom: 40px;
-    opacity: 0.7;
-  }
-  
-  img {
-    width: 50%;
-    position: center;
-  }
-  
-  .btnImg {
-    width: 80%;
-  }
-  
-  input {
-    width: 80%;
-    padding: 20px;
-    font-size: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px
-  }
-  
-  button {
-    width: 20%;
-    padding: 15px;
-    border-radius: 50px;
-    border: none;
-    background-color: rgb(86, 21, 148);
-    color: white;
-    transition: filter .2s;
-  }
-  
-  /* pseudo-class :hover */
-  button:hover {
-    filter: brightness(1.2);
-    cursor: pointer;
-  }
+  margin: 0;
+}
 
-  #resposta {
-    margin-top: 30px;
-    transition: opacity 1s;
-  }
 
-  #resposta div {
-    font-size: 16px;
-    font-weight: normal;
-    opacity: 0.9;
-    margin-bottom: 10px;
-  }
+body {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  background-image: url(https://1.bp.blogspot.com/-ON3z1em6qsU/XPW8zr6WvuI/AAAAAAAARYg/igp71s7ebbQHg68ew9drbk55MsziDRnnwCLcBGAs/s1600/jb_magic8ball1-w855h425%25402x.jpg);
+  background-position: center;
+}
+
+#container {
+  margin-top: 30px;
+  padding: 20px;
+  width: 80%;
+  max-width: 400px;
+  margin-inline: auto;
+  border: 3px solid rgb(22, 104, 159);
+  box-shadow: 8px 0px 8px 5px black;
+  margin-bottom: 30px;
+  backdrop-filter: blur(8px);
+}
+
+h1 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  opacity: 0.9;
+}
+
+p {
+  margin-bottom: 40px;
+  opacity: 0.7;
+}
+
+img {
+  width: 50%;
+  position: center;
+}
+
+.btnImg {
+  width: 80%;
+}
+
+input {
+  width: 80%;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px
+}
+
+button {
+  width: 20%;
+  padding: 15px;
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(86, 21, 148);
+  color: white;
+  transition: filter .2s;
+}
+
+/* pseudo-class :hover */
+button:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+
+#resposta {
+  margin-top: 30px;
+  transition: opacity 1s;
+}
+
+#resposta div {
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.9;
+  margin-bottom: 10px;
+}
